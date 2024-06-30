@@ -360,7 +360,146 @@ footer {
   font-size: 24px;
 }
 
+/* Mobile Devices */
+@media only screen and (max-width: 600px) {
+  /* styles here will be applied when screen width is 600px or less */
+  .navbar .logo a {
+    margin-left: 0;
+  }
+  .navbar .menu {
+    margin-right: 0;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .words {
+    font-size: 24px;
+  }
+  .words span {
+    font-size: 18px;
+  }
+  .project-showcase {
+    flex-direction: column;
+  }
+  .project-info {
+    flex-basis: 100%;
+  }
+  .image-description {
+    flex-basis: 100%;
+    padding-right: 0;
+  }
+  .imagez {
+    width: 100%;
+    margin-right: 0;
+  }
+  .view-site {
+    margin-top: 0;
+  }
+  .view-sitex {
+    margin-top: 0;
+  }
+  footer {
+    padding: 10px;
+  }
+  .social-media {
+    gap: 10px;
+  }
+}
 
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  /* styles here will be applied when screen width is between 601px and 900px */
+  .navbar .logo a {
+    margin-left: -150px;
+  }
+  .navbar .menu {
+    margin-right: -150px;
+  }
+  .image {
+    width: 50%;
+    height: auto;
+  }
+  .words {
+    font-size: 30px;
+  }
+  .words span {
+    font-size: 22px;
+  }
+  .project-showcase {
+    flex-direction: row;
+  }
+  .project-info {
+    flex-basis: 70%;
+  }
+  .image-description {
+    flex-basis: 70%;
+    padding-right: 10px;
+  }
+  .imagez {
+    width: 50%;
+    margin-right: 10px;
+  }
+  .view-site {
+    margin-top: 300px;
+  }
+  .view-sitex {
+    margin-top: 300px;
+  }
+  footer {
+    padding: 15px;
+  }
+  .social-media {
+    gap: 20px;
+  }
+}
+
+/* Desktops */
+@media only screen and (min-width: 901px) {
+  /* styles here will be applied when screen width is 901px or more */
+  .navbar .logo a {
+    margin-left: -280px;
+  }
+  .navbar .menu {
+    margin-right: -290px;
+  }
+  .image {
+    width: 400px;
+    height: 350px;
+  }
+  .words {
+    font-size: 58px;
+  }
+  .words span {
+    font-size: 42px;
+  }
+  .project-showcase {
+    flex-direction: row;
+  }
+  .project-info {
+    flex-basis: 60%;
+  }
+  .image-description {
+    flex-basis: 40%;
+    padding-right: 20px;
+  }
+  .imagez {
+    width: 30%;
+    margin-right: 20px;
+  }
+  .view-site {
+    margin-top: 700px;
+  }
+  .view-sitex {
+    margin-top: 700px;
+  }
+  footer {
+    padding: 20px;
+  }
+  .social-media {
+    gap: 30px;
+  }
+}
 
 /* footer {
   background-color: #000;
