@@ -51,7 +51,7 @@ html{
 }
 
 .navbar .menu {
-    margin-right: -290px; /* Remove default margin */
+    margin-right: auto; /* Remove default margin */
 }
 
 .navbar .menu li {
