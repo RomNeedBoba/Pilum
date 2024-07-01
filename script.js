@@ -24,3 +24,25 @@
 //     }
 //   }
 // });
+// Get the navbar element
+const navbar = document.querySelector('.navbar');
+
+// Track the previous scroll position
+let prevScrollpos = window.pageYOffset;
+
+// Event listener for scroll event
+window.addEventListener('scroll', function() {
+  // Current scroll position
+  let currentScrollPos = window.pageYOffset;
+  
+  // If the previous scroll position is greater than the current scroll position, show the navbar
+  if (prevScrollpos > currentScrollPos) {
+    navbar.style.top = '0';
+  } else {
+    // Otherwise, hide the navbar
+    navbar.style.top = '-80px'; // Adjust the height of your navbar accordingly
+  }
+  
+  // Update the previous scroll position
+  prevScrollpos = currentScrollPos;
+});
