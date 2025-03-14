@@ -7,7 +7,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ scrollToSection, activeSection }) => {
-  const sections: string[] = ["home", "Work", "Actvities", "Resume", "Contact"];
+  const sections: string[] = ["home", "work", "activities", "Paper", "Resume"];
 
   const handleClick = (section: string) => {
     scrollToSection(section);

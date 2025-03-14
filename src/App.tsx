@@ -1,20 +1,20 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Home from "./pages/Home";
-// import About from "@/pages/About";
-// import Layout from "@/layouts/Layout";
+import { BrowserRouter as Router, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import "./styles/global.css";
+import Home from "./components/Home";
+import HomeTwo from "./components/HomeTwo";
 
 function App() {
   return (
     <Router>
-      <Header />
-      {/* <Layout> */}
-        <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
-          {/* <Route path="/about" element={<About />} /> */}
-        </Routes>
-      {/* </Layout>/ */}
+      <Header scrollToSection={() => {}} activeSection="" />
+      <Home />
+      <HomeTwo />
+
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+        {/* <Route path="/about" element={<About />} /> */}
+      </Routes>
     </Router>
   );
 }
