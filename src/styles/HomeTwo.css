@@ -3,6 +3,8 @@
     color: #333;
     text-align: center;
     padding-bottom: 50px;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+
 }
 
 /* Header with curved background */

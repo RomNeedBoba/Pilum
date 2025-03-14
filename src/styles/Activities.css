@@ -1,4 +1,5 @@
 .activities-container {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
     display: flex;
     align-items: center;
     gap: 30px; /* Controls spacing between image & text */

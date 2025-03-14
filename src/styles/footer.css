@@ -1,4 +1,5 @@
 .footer-container {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
     display: flex;
     justify-content: center;
     align-items: center;

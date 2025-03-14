@@ -1,4 +1,6 @@
 .big-box {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+
     width: fit-content;
     margin: 20px auto;
     padding: 15px 30px;
