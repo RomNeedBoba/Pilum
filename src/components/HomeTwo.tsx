@@ -25,7 +25,7 @@ const HomeTwo: React.FC = () => {
                             <span className="tech">Pytorch</span>
 
                         </div>
-                        <a href="#" target="_blank" className="btn">Coming Before April</a>
+                        <a href="#" target="_blank" className="btn">ComingBefore April</a>
                     </div>
                 </div>
                 <div className="project-item">
@@ -44,7 +44,7 @@ const HomeTwo: React.FC = () => {
                     </div>
                 </div>
                 <div className="project-item">
-                    <img src="/baske.jpg" alt="Project 3" className="project-image" />
+                    <img src="baske.jpg" alt="Project 3" className="project-image" />
                     <div className="project-content">
                         <h3>Hoop Detection</h3>
                         <p>( Individual ) AI model developed for ABU Robocon 2025. As it is to enable autonomous shooting by accurately identifying the rim's location in real-time</p>
@@ -58,7 +58,7 @@ const HomeTwo: React.FC = () => {
                     </div>
                 </div>
                 <div className="project-item">
-                    <img src="/robo24.jpg" alt="Project 4" className="project-image" />
+                    <img src="robo24.jpg" alt="Project 4" className="project-image" />
                     <div className="project-content">
                         <h3>ABU Robocon 2024</h3>
                         <p>( Member ) Responsibiliyu was utilizing Python and C++ for robot control. I gained  experience in ROS2 Foxy, Nvidia Jetson Orin Nano and many Sensor</p>
@@ -72,7 +72,7 @@ const HomeTwo: React.FC = () => {
                     </div>
                 </div>  
                 <div className="project-item">
-                    <img src="/typing2.png" alt="Project 5" className="project-image" />
+                    <img src="typing2.png" alt="Project 5" className="project-image" />
                     <div className="project-content">
                         <h3>Khmer Typing Website</h3>
                         <p>( Individual ) I worked on a website designed to help users practice and improve their Khmer typing skills. Which is inspired From MonkeyType. Currently, converting from V1.0.3 to V2.0.0 Where I change the whole System Architecture</p>
@@ -86,7 +86,7 @@ const HomeTwo: React.FC = () => {
                     </div>
                 </div>  
                 <div className="project-item">
-                    <img src="/coc.png" alt="Project 6" className="project-image" />
+                    <img src="coc.png" alt="Project 6" className="project-image" />
                     <div className="project-content">
                         <h3>Clashofclanlayouts.com</h3>
                         <p>( Individual ) my first ever website built in 2023, as this is a web full of clash clash of clan base, where user can easily copy any base by it game, stategy base by communication between Our Web And Clash Of Clan API</p>
